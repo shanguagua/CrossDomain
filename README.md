@@ -43,10 +43,7 @@
 因为JS同源策略是浏览器的安全策略，所以在浏览器客户端不能跨域访问，而服务器端调用HTTP接口只是使用HTTP协议，不会执行JS脚本，不需要同源策略，也就没有跨越问题。简单地说，就是浏览器不能跨域，后台服务器可以跨域。
 
 - demo1
-通过使用`http-proxy-middleware插件`设置后端的代理，在 http://localhost:3000 运行
-
-- demo2
-不使用插件配置代理，直接使用`http模块`发出请求， 在 http://localhost:3000 运行
+通过使用`http-proxy-middleware插件`设置后端的代理，在 http://localhost:3000  运行
 
 
 ### 4. WebSocket跨域
